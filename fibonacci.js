@@ -14,7 +14,7 @@ function fibonacci() {
     console.log(d)
   }
   console.log(sum);
-  return sum;
+  return d;
 }
 fibonacci();
 module.exports = fibonacci();
