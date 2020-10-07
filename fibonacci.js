@@ -1,23 +1,3 @@
-// function fibonacci() {
-//   let a = 1;
-//   let b = 0;
-//   let c;
-//   let d = [];
-//   let sum = 0;
-//   for (let i = 1; i <= 10; i++) {
-//     // c = 0;
-//     c = a + b;
-//     d.push(c);
-//     sum += c;
-//     a = b;
-//     b = c;
-//     console.log(d)
-//   }
-//   console.log(sum);
-//   return d;
-// }
-// fibonacci();
-
 function fibonacci1(n) {
   if (n === 1) {
     return [0, 1];
@@ -33,12 +13,6 @@ function fibonacci1(n) {
 
  // console.log(fibonacci1(8));
 
-
-
-
-
- 
-// module.exports = fibonacci();
 module.exports = fibonacci1;
 
 
