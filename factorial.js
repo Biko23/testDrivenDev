@@ -1,7 +1,6 @@
 function factorial(n) {
   let answer = 1; /* Factorial of 0 and 1 should be 1 as factorial returns the product of all
   positive integers less than or equal to that integer. */ 
-  
   if (n === 0 || n === 1) {
     return answer;
   } else {
